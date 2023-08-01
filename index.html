@@ -25,10 +25,10 @@
             </ul>
 <!-- Social Media -->
             <div class=" flex flex-rows-4 gap-4 ">
-                <a href="https://www.linkedin.com/in/zubaidat-shuka" target="_blank"><i class="fab fa-linkedin fa-2x text-blue-700 "></i></a>
-                <a href="https://twitter.com/shukazuby?s=21&t=J1J5hhDOdjU0APeeNcUm3A" target="_blank"><i class="fab fa-twitter fa-2x text-blue-900"></i></a>
-                <a href="https://instagram.com/zubaidat_shuka?igshid=NTc4MTIwNjQ2YQ==" target="_blank"><i class="fab fa-instagram fa-2x text-purple-400 "></i></a>
-                <a href="https://github.com/Shukazuby" target="_blank"><i class="fab fa-github fa-2x "></i></a>            
+                <a href="https://www.linkedin.com/in/zubaidat-shuka" target="_blank"><i class="fab fa-linkedin fa-2x text-yellow-500 "></i></a>
+                <a href="https://twitter.com/shukazuby?s=21&t=J1J5hhDOdjU0APeeNcUm3A" target="_blank"><i class="fab fa-twitter fa-2x text-yellow-500"></i></a>
+                <a href="https://instagram.com/zubaidat_shuka?igshid=NTc4MTIwNjQ2YQ==" target="_blank"><i class="fab fa-instagram fa-2x text-yellow-500 "></i></a>
+                <a href="https://github.com/Shukazuby" target="_blank"><i class="fab fa-github fa-2x text-yellow-500"></i></a>            
             </div>
         </div>
     </nav>
@@ -163,7 +163,7 @@
               <p class="mb-4">
                 Starting without mentioning TIIDELab would be unfair because they have been instrumental in shaping my path and nurturing my growth. Let me share my journey with you.
               </p>
-           <a href="https://medium.com/@shukazuby/my-tiidelab-fellowship-experience-1-0-3e3bbaabeaf5" class="bg-yellow-500 text-black font-bold p-2 rounded-md"> Read More </a>
+           <a href="https://medium.com/@shukazuby/my-tiidelab-fellowship-experience-1-0-3e3bbaabeaf5" target="_blank" class="bg-yellow-500 text-black font-bold p-2 rounded-md"> Read More </a>
             </div>
           </article>
     </section>
@@ -171,19 +171,19 @@
     <!-- contact -->
         <div class="">
           <h1 class="text-4xl p-2 text-white"><strong class="text-yellow-500">Contact</strong> Me</h1>
-          <form class="w-full pl-8">
+          <form class="w-full pl-8 ">
             
               <div class="">
                   <label for="name" class="block text-white font-bold">Name</label>
-                  <input type="name"  id="name" class="w-1/2 p-1" placeholder="Enter Your Name" required>
+                  <input type="name"  id="name" class="w-1/2 p-1 outline-none" placeholder="Enter Your Name" required>
               </div>
               <div class="">
                   <label for="email" class="block text-white font-bold">Email</label>
-                  <input type="email" id="email" class="w-1/2 p-1" placeholder="Enter Your Email" required>
+                  <input type="email" id="email" class="w-1/2 p-1 outline-none" placeholder="Enter Your Email" required>
               </div>
               <div class="">
                   <label for="msg" class="block text-white font-bold">Message</label>
-                  <textarea id="msg" cols="22.7" rows="5" class="w-1/2 p-4" placeholder="Write Here"></textarea>
+                  <textarea id="msg" cols="22.7" rows="5" class="w-1/2 p-4 outline-none" placeholder="Write Here"></textarea>
               </div>
               <button type="submit" class="block bg-yellow-500 text-black p-2 rounded font-bold  w-1/2">Submit</button>
           </form>
@@ -198,12 +198,12 @@
           <div class="text-white hover:text-yellow-500">
             <i class="fa-solid fa-phone"></i>
             <h3>Phone Number</h3>
-           <a href="tel+2348165187327"> <p>(081)-651-87327</p></a>
+           <a href="tel:+2348165187327"> <p>(081)-651-87327</p></a>
           </div>
           <div class="text-white hover:text-yellow-500">
             <i class="fa-solid fa-envelope"></i>
             <h3>Email Address</h3>
-           <a href="shukazuby@gmail.com"><p>shukazuby@gmail.com</p></a>
+           <a href="mailto:shukazuby@gmail.com"><p>shukazuby@gmail.com</p></a>
             <br>
           </div>
           </div>
@@ -213,7 +213,6 @@
             <p class="text-black font-bold">Shuka Zuby &copy; All Rights Reserved</p>
           </footer>
 
-          <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
           <script>
 // sticky menu background
 
@@ -226,7 +225,7 @@ window. addEventListener('scroll', function() {
 });
 
 // smooth scrolling
-$('#nav-bar, a, btn').on('click', function(event) {
+$('#navbar, a, btn').on('click', function(event) {
   if (this.hash !== '') {
     event.preventDefault();
 
